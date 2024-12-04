@@ -28,7 +28,7 @@ public class LoggingTask {
         }
         if (log.length()>pointer) {
 
-            loggingService.sendSymbolsStartsWithPointer(log, pointer);
+            loggingService.broadcastFileFromPointer(log, pointer);
 
             pointer = log.length();
 
